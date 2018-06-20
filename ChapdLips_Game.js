@@ -28,7 +28,7 @@ var enemyScore = Math.round(Math.random() * 10);
 
 alert(strategy + " " + "Goes out first!");
 alert("The Judges score that a " + score);
-alert("The other crew does a routine against your crew mate.  The judge gives that a score of " + enemyScore);
+
 //ChapdLips score
 if(score === 10){
   alert("Smokin!");
@@ -39,6 +39,8 @@ else if(score < 10 &&  score > 5){
 else {
   alert("Pick it up!");
 }
+
+alert("The other crew does a routine against your crew mate.  The judge gives that a score of " + enemyScore);
 //Competitor score
 if(enemyScore === 10){
   alert("They're winning.");
